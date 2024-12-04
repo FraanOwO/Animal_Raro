@@ -143,7 +143,7 @@ header {
     margin-bottom: 40px;
 }
 
-p {
+section p {
     top: 1360px;
     left: 231px;
     width: 698px;
@@ -165,12 +165,12 @@ p {
     height: 942px;
     margin-top: 246px;
     margin-left: 311px;
-    border-radius: 45px;
+    border-radius: 15px;
     border: none;
     /* Asegura que no haya bordes visibles */
-    box-shadow: 0px 0px 0px 30px rgba(218, 43, 114, 0.25),
-        40px 10px 0px 30px hsla(228, 55%, 35%, 0.25),
-        -90px 100px 0px -30px hsla(65, 100%, 38%, 0.25);
+    box-shadow: 0px 0px 0px 40px rgba(218, 43, 114, 0.25),
+        37px 0px 0px 30px hsla(228, 55%, 35%, 0.25),
+        -95px 95px 0px -30px hsla(65, 100%, 38%, 0.25);
 }
 
 .holi {
@@ -431,7 +431,7 @@ h4 {
     left: 160px;
     width: 720px;
     height: 141px;
-    background-color: #B2C100;
+    background-color: rgba(178, 193, 0, 0.5);
     border-radius: 20px;
     line-height: 0;
     display: flex;
@@ -457,28 +457,18 @@ h4 {
     font-size: 38px;
 }
 
-section {
-    padding-top: 80px;
-}
-
-.pad {
-    background-color: #B2C100;
-    top: 1640px;
-    left: 160px;
-    width: 720px;
-    height: 80px;
-    margin-left: 9%;
-    border-radius: 45px;
-    text-align: center;
-    padding-top: 1%;
-    margin-top: 125px;
-    align-items: flex-start;
-}
 
 .mas h3 {
+    background-color: rgba(178, 193, 0, 0.5);
+    top: 1640px;
+    left: 180px;
+    width: 720px;
+    height: 80px;
+    border-radius: 45px;
+    margin-bottom: 125px;
     font: normal normal bold 50px/76px Poppins;
     text-align: center;
-    color: #283B8A;
+    color: rgba(70, 75, 153, 1);
     font-size: 50px;
     text-transform: uppercase;
 }
@@ -488,7 +478,8 @@ section {
     height: 270px;
     border-radius: 45px;
     margin-left: 15%;
-    margin-top: 115px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 0px 20px rgb(79, 81, 156, 0.3);
 }
 
 .pad h3 {
@@ -517,7 +508,7 @@ section {
     left: 182px;
     width: 218px;
     height: 80px;
-    background-color: rgba(178, 193, 0, 1);
+    background-color: rgba(178, 193, 0, 0.5);
     border-radius: 45px;
     text-align: center;
     color: rgba(40, 59, 138, 1);
@@ -533,7 +524,7 @@ section {
     left: 182px;
     width: 318px;
     height: 80px;
-    background-color: rgba(178, 193, 0, 1);
+    background-color: rgba(178, 193, 0, 0.5);
     border-radius: 45px;
     text-align: center;
     color: rgba(40, 59, 138, 1);
@@ -550,7 +541,7 @@ section {
     left: 182px;
     width: 318px;
     height: 80px;
-    background-color: rgba(178, 193, 0, 1);
+    background-color: rgba(178, 193, 0, 0.5);
     border-radius: 45px;
     text-align: center;
     color: rgba(40, 59, 138, 1);
@@ -589,10 +580,12 @@ section {
 
 .xd {
     box-shadow: 0px 0px 0px 30px rgba(74, 144, 35, 0.3);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 .xd2 {
     box-shadow: 0px 0px 0px 30px rgba(218, 43, 114, 0.3);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 #video_guia {
@@ -624,7 +617,7 @@ section {
     width: 720px;
     height: 66px;
     border-radius: 45px;
-    background-color: #B2C100;
+    background-color: rgb(178, 193, 0,0.5);
     text-align: center;
     font: normal normal bold 35px/53px Poppins;
     color: rgba(40, 59, 138, 1);
@@ -646,8 +639,60 @@ section {
 
 }
 
+.pad2 h3 {
+    background-color: rgb(178, 194, 0, 0.5);
+    border-radius: 45px;
+    top: 2102px;
+    left: 170px;
+    width: 700px;
+    height: 54px;
+    margin-top: 140px;
+    color: rgba(79, 87, 160, 1);
+    font-size: 35px;
+    font: normal normal bold 35px/53px Poppins;
+}
 
+.mas p {
+    font: normal normal normal 24px/35px Poppins;
+    text-transform: lowercase;
+    text-align: left;
 
+}
+
+#text_video {
+    width: 560px;
+    height: 33px;
+    text-align: center;
+    color: var(--unnamed-color-4f57a0);
+    font: normal normal normal 24px/35px Poppins;
+    letter-spacing: 0px;
+    color: rgba(79, 87, 160, 1);
+    opacity: 1;
+    margin-top: 80px;
+    margin-left: 260px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0%;
+    left: 5%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    color: rgba(218, 43, 114, 0.8);
+    font: normal normal bold 65px/98px Poppins;
+    font-weight: 65px;
+}
+.text_img{
+    margin-top: 4%;
+    margin-left: 10%;
+    text-align: center;
+    color: var(--unnamed-color-4f57a0);
+    font: normal normal normal 24px/35px Poppins;
+    letter-spacing: 0px;
+    color: rgba(79, 87, 160, 1);
+}
 
 /* Responsividad */
 @media (max-width: 768px) {
