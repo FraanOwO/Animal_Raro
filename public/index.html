@@ -19,16 +19,17 @@
 
 <body>
     <header>
-        <div class="container-fluid d-flex justify-content-center align-items-center navbar p-3 position-relative">
+        <div class="container-fluid d-flex justify-content-center align-items-center p-3 divhead">
             <img src="assets/img/LOGOTIPO.svg" alt="Logotipo" class="logotipo me-3">
             <nav class="navbar navbar-expand-lg navbarcss">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                        <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto ps-2">
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">INICIO</a></li>
                             <li class="nav-item"><a class="nav-link" href="taller.html">TALLER</a></li>
                             <li class="nav-item"><a class="nav-link" href="galeria.html">GALERÍA</a></li>
@@ -40,7 +41,8 @@
         </div>
     </header>
 
-    <div class="container-fluid d-flex justify-content-center carousel_carousel">
+
+    <div class="container-fluid d-flex justify-content-center carousel_carousel d-none d-md-block">
         <div id="carouselExampleSlidesOnly" class="carousel slide xd3 " data-bs-ride="carousel" data-bs-interval="2000">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -59,33 +61,40 @@
         </div>
     </div>
 
-    <section class="container-fluid d-flex justify-content-center my-4">
-        <div class="row">
+    <section class="container-fluid d-flex flex-column flex-lg-row justify-content-center my-4">
+        <div class="row text-center">
 
-            <div class="col-lg-6 mb-4 text-center">
-                <h1>
+            <!-- Columna de texto -->
+            <div class="col-12 col-lg-6 mb-4">
+                <h1 class="text-mobile-title">
                     <span class="pequeno">ANIMAL</span><br>
                     <span class="grande">RARO</span>
                 </h1>
 
-                <h3 class="title_sec">¿Qué es ANIMAL RARO?</h3>
-                <p>
+                <h3 class="title_sec ">¿Qué es ANIMAL RARO?</h3>
+                <p class="text-mobile">
                     El proyecto Animal Raro se presenta como una identidad artística que formula y da soporte a espacios
-                    creativos a través de la gestión de distintos talleres artístico-comunitarios. Su objetivo principal
-                    es facilitar herramientas prácticas y teóricas de la disciplina del diseño gráfico tales como la
-                    impresión análoga, semi análoga para papel o textil, y la creación de imágenes bajo la teoría de la
-                    comunicación visual.
+                    creativos a
+                    través de la gestión de distintos talleres artístico-comunitarios. Su objetivo principal es
+                    facilitar herramientas
+                    prácticas y teóricas de la disciplina del diseño gráfico tales como la impresión análoga, semi
+                    análoga para papel
+                    o textil, y la creación de imágenes bajo la teoría de la comunicación visual.
                 </p>
-                <h3 class="title_sec">¿Qué hacemos?</h3>
-                <p>
+
+
+                <h3 class="title_sec ">¿Qué hacemos?</h3>
+                <p class="text-mobile">
                     Su objetivo principal es facilitar herramientas prácticas y teóricas de la disciplina del diseño
-                    gráfico tales como la impresión análoga, semi análoga para papel o textil, y la creación de imágenes
-                    bajo la teoría de la comunicación visual.
+                    gráfico tales
+                    como la impresión análoga, semi análoga para papel o textil, y la creación de imágenes bajo la
+                    teoría de la
+                    comunicación visual.
                 </p>
             </div>
 
             <!-- Columna para el iframe -->
-            <div class="col-lg-6 iframe-container ">
+            <div class="col-lg-6 iframe-container">
                 <iframe id="video" width="508" height="903"
                     src="https://www.youtube.com/embed/nI5ZOrZo1Rc?loop=1&playlist=nI5ZOrZo1Rc" title="reel promocional"
                     frameborder="0"
@@ -93,6 +102,7 @@
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                 </iframe>
             </div>
+        </div>
     </section>
 
     <div class="container-fluid">
@@ -135,7 +145,7 @@
                 </div>
                 <!-- Contáctanos a la derecha -->
                 <div class="col-md-8 text-center text-md-start">
-                    <h4 class="mb-3">CONTÁCTANOS</h4>
+                    <h4 class="mb-3 d-none d-md-block ">CONTÁCTANOS</h4>
                     <div class="footer_social d-flex justify-content-center align-items-center mx-auto">
                         <a href="https://www.instagram.com/">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram"

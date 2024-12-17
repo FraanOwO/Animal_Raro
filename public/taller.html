@@ -19,15 +19,16 @@
 
 <body>
     <header>
-        <div class="container-fluid d-flex justify-content-center align-items-center navbar p-3 position-relative">
+        <div class="container-fluid d-flex justify-content-center align-items-center p-3 divhead">
             <img src="assets/img/LOGOTIPO.svg" alt="Logotipo" class="logotipo me-3">
             <nav class="navbar navbar-expand-lg navbarcss">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav">
                             <li class="nav-item"><a class="nav-link" href="index.html">INICIO</a></li>
                             <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">TALLER</a></li>
@@ -41,7 +42,7 @@
     </header>
 
 
-    <section class="container-fluid d-flex justify-content-center my-4 mb-0">
+    <section class="container-fluid d-flex justify-content-center my-4">
         <div class="row">
             <!-- Columna para el texto -->
             <div class="container-fluid col-lg-5 mb-4">
@@ -53,9 +54,9 @@
                         <h2>Inicio en la técnica</h2>
                     </span>
                 </div>
-                <div class="container-fluid justify-content-center">
+                <div class="container-fluid justify-content-center text_taller">
                     <h3 class="title_sec">¿¿De qué trata??</h3>
-                    <p>
+                    <p class="text-mobile">
                         La serigrafía es una técnica gráfica versátil y accesible que nos permite plasmar imágenes,
                         diseños
                         o mensajes sobre diferentes superficies como papel, tela, madera, entre otros. Este taller está
@@ -64,7 +65,7 @@
                         de
                         estampado y experimentación creativa.
                     </p>
-                    <p>
+                    <p class="text-mobile">
                         A lo largo del taller, exploraremos no solo los pasos técnicos, sino también las posibilidades
                         expresivas y gráficas que ofrece la serigrafía. Además, se fomentará el aprendizaje colectivo,
                         valorando la experimentación, el error y la imperfección como parte del proceso creativo. Este
@@ -72,14 +73,14 @@
                         desarrollar una mirada propia y descubrir el potencial de la serigrafía como medio de
                         autoexpresión y comunicación gráfica.
                     </p>
-                    <p>
+                    <p class="text-mobile">
                         ¡Prepárate para ensuciarte las manos, liberar tu creatividad y dar tus primeros pasos en este
                         mundo fascinante de la impresión!
                     </p>
                 </div>
             </div>
             <!-- Columna para el iframe -->
-            <div class="col-lg-6 iframe-container">
+            <div class="col-lg-6 iframe-container d-none">
                 <iframe id="video" width="508" height="903"
                     src="https://www.youtube.com/embed/nI5ZOrZo1Rc?loop=1&playlist=nI5ZOrZo1Rc" title="reel promocional"
                     frameborder="0"
@@ -91,7 +92,7 @@
         </div>
     </section>
 
-    <div class="container-fluid d-flex justify-content-center mt-0">
+    <div class="container-fluid d-flex justify-content-center mt-0 inscribete">
         <div class="d-flex flex-row">
             <!-- Columna para el texto -->
             <div class="container-fluid mas">
@@ -107,16 +108,14 @@
                 </div>
             </div>
             <!-- Columna para la imagen -->
-            <div class="col-lg-7 text-center">
+            <div class="col-lg-7 text-center d-none">
                 <img src="assets/img/caballero.webp" alt="" class="img_taller">
                 <p class="text_img">Fotografía extraída del Taller Piloto, Julio 2024.</p>
             </div>
         </div>
     </div>
 
-
-
-    <div class="container-fluid">
+    <div class="container-fluid serigrafia">
         <div class="row">
             <div class="col-12 pad2">
                 <h3 class="text-center">
@@ -169,7 +168,7 @@
                 </div>
                 <!-- Contáctanos a la derecha -->
                 <div class="col-md-8 text-center text-md-start">
-                    <h4 class="mb-3">CONTÁCTANOS</h4>
+                    <h4 class="mb-3 d-none">CONTÁCTANOS</h4>
                     <div class="footer_social d-flex justify-content-center align-items-center mx-auto">
                         <a href="https://www.instagram.com/">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram"
